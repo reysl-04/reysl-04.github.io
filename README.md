@@ -8,7 +8,7 @@ This project was not only to learn React, Typescript and Tailwind basic concepts
 - React
 - Tailwind
 - Vite
-- Netlify
+- Github Pages
 
 # Installation 
 After forking and cloning the repo to your local machine just run the following commands
