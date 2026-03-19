@@ -12,7 +12,7 @@ export default function Socials() {
                     href={social.url}
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="flex w-full h-full items-center justify-center rounded-xl bg-white p-1 transition-colors duration-500 ease-in-out delay-0 hover:bg-black"
+                    className="flex w-full h-full items-center justify-center rounded-xl bg-transparent p-1 transition-colors duration-500 ease-in-out delay-0 hover:bg-[#1A2336]"
                 >
                     <img
                         src={social.link}

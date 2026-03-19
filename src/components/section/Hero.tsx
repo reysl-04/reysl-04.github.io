@@ -11,25 +11,33 @@ export default function Hero() {
   }
 
   return (
-    <section className="w-full min-h-screen flex flex-col items-center justify-center px-6 pt-24 pb-12 text-center">
-      <div className="w-full max-w-2xl tracking-[0.2rem]">
-        <p className="text-xs uppercase mb-2 tracking-widest font-light">Hello I&apos;m</p>
-        <h1 className="text-4xl md:text-5xl font-bold tracking-widest">Alexander Reyes</h1>
-        <hr className="my-4 border-black/70" />
-        <h2 className="mb-0 text-2xl">Software Engineer</h2>
+    <section className="bg-[#D9E1F8] w-full min-h-screen flex flex-col items-center justify-center px-6 pt-28 pb-16 text-center">
+      <div className="w-full max-w-3xl">
+        <p className="mb-3 text-xs uppercase tracking-[0.28em] font-medium text-[#0F1521]/60">Hello I&apos;m</p>
+        <h1 className="text-5xl md:text-6xl lg:text-7xl font-black tracking-wide leading-[0.95] text-[#1A2336]">
+          Alexander Reyes
+        </h1>
+        <hr className="my-6 w-[min(46rem,96%)] mx-auto border-[#000000]/65" />
+        <h2 className="mb-0 text-sm md:text-base uppercase tracking-[0.24em] font-semibold text-[#E8A020]!">
+          Software Engineer | Back End Developer
+        </h2>
       </div>
 
-      <div className="w-full max-w-3xl mt-8 flex flex-col items-center gap-8 font-light tracking-wide">
-        <p>
-          A SOFTWARE ENGINEER AND A GAME ENJOYER BASED IN PLATTSBURGH, NEW YORK WHO ENJOYS
-          CRAFTING CREATIVE AND HIGH QUALITY WEB AND ANDROID APPLICATIONS.
+      <div className="w-full max-w-3xl mt-10 flex flex-col items-center gap-8">
+        <p className="max-w-[62ch] text-base md:text-lg leading-relaxed font-normal tracking-normal text-[#0F1521]/80">
+          A software engineer and game enjoyer based in Plattsburgh, New York who enjoys
+          crafting creative and high-quality web and Android applications.
         </p>
 
         <div className="my-2">
           <Socials />
         </div>
 
-        <Button text="Get to know me" onClick={scrollToAbout} />
+        <Button
+          text="Get to know me"
+          onClick={scrollToAbout}
+          className="mt-10 text-base md:text-lg rounded-2xl shadow-[0_10px_22px_rgba(0,0,0,0.22)]"
+        />
       </div>
     </section>
   )

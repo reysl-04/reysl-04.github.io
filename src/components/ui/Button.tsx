@@ -5,7 +5,7 @@ interface ButtonProps {
 }
 
 export default function Button({ text, onClick, className = "" }: ButtonProps) {
-        const base = "cursor-pointer rounded-xl border border-black px-4 py-2.5 text-sm font-semibold text-white bg-black hover:bg-white hover:text-black transition-all duration-300 box-border";
+        const base = "bg-[#1A2336] border-[#3A5080] text-[#EDF2FF] hover:bg-[#EDF2FF] hover:text-[#3A5080] hover:border-[#3A5080] cursor-pointer rounded-xl border px-16 py-4 text-sm font-semibold transition-all duration-300 box-border";
 
     return (
                 <button className={`${base} ${className}`} onClick={onClick}>
