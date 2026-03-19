@@ -2,7 +2,7 @@ import Button from "../ui/Button"
 
 export default function Contact() {
     return (
-        <section className="w-full bg-white px-8 py-20 md:px-14 lg:px-24 md:py-24">
+        <section id="contact" className="w-full bg-[#D9E1F8] px-8 py-20 md:px-14 lg:px-24 md:py-24">
             <div className="mx-auto w-full max-w-4xl text-center">
                 <h2 className="text-4xl font-bold tracking-widest mb-20 md:mb-24">Let&apos;s build something together!</h2>
 
@@ -23,11 +23,11 @@ export default function Contact() {
 {"\n"}
 <span className="text-[#858585]">2</span>
 {"\n"}
-<span className="text-[#858585]">3</span>{"  "}<span className="text-[#569cd6]">const</span>{" "}<span className="text-[#dcdcaa]">contactMe</span>{" = ("}<span className="text-[#9cdcfe]">you</span>{") => "}<span className="text-[#858585]">&#123;</span>
+<span className="text-[#858585]">3</span>{"  "}<span className="text-[#569cd6]">const</span>{" "}<span className="text-[#dcdcaa]">contactMe</span><span className="text-[#858585]">{" = ("}</span><span className="text-[#9cdcfe]">you</span><span className="text-[#858585]">{") => "}</span><span className="text-[#858585]">&#123;</span>
 {"\n"}
-<span className="text-[#858585]">4</span>{"    "}<span className="text-[#569cd6]">if</span>{" ("}<span className="text-[#9cdcfe]">you</span>{" === "}<span className="text-[#ce9178]">"hire me"</span>{") "}<span className="text-[#858585]">&#123;</span>
+<span className="text-[#858585]">4</span>{"    "}<span className="text-[#569cd6]">if</span><span className="text-[#858585]">{" ("}</span><span className="text-[#9cdcfe]">you</span><span className="text-[#858585]">{" === "}</span><span className="text-[#ce9178]">"hire me"</span><span className="text-[#858585]">{") "}</span><span className="text-[#858585]">&#123;</span>
 {"\n"}
-<span className="text-[#858585]">5</span>{"      "}<span className="text-[#569cd6]">return</span>{" "}<span className="text-[#ce9178]">"Let's connect"</span><span className="text-[#858585]">;</span>
+<span className="text-[#858585]">5</span>{"      "}<span className="text-[#569cd6]">return</span><span className="text-[#858585]">{" "}</span><span className="text-[#ce9178]">"Let's connect"</span><span className="text-[#858585]">;</span>
 {"\n"}
 <span className="text-[#858585]">6</span>{"    "}<span className="text-[#858585]">&#125;</span>
 {"\n"}

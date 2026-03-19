@@ -1,15 +1,8 @@
 import Button from "../ui/Button"
 import Socials from "../socials"
+import { scrollToSection } from "../../utilities/scroll"
 
-// Function that scrolls to the about section.
 export default function Hero() {
-  const scrollToAbout = () => {
-    const aboutSection = document.getElementById("about")
-    if (aboutSection) {
-      aboutSection.scrollIntoView({ behavior: "smooth", block: "start" })
-    }
-  }
-
   return (
     <section className="bg-[#D9E1F8] w-full min-h-screen flex flex-col items-center justify-center px-6 pt-28 pb-16 text-center">
       <div className="w-full max-w-3xl">
@@ -35,7 +28,7 @@ export default function Hero() {
 
         <Button
           text="Get to know me"
-          onClick={scrollToAbout}
+          onClick={() => scrollToSection("about")}
           className="mt-10 text-base md:text-lg rounded-2xl shadow-[0_10px_22px_rgba(0,0,0,0.22)]"
         />
       </div>

@@ -1,4 +1,6 @@
-const navLinks = ["About", "Experience", "Contact"]
+import { scrollToSection } from "../../utilities/scroll"
+
+const navLinks = ["about", "experience", "contact"]
 
 export default function NavBar() {
   return (
@@ -8,8 +10,9 @@ export default function NavBar() {
             <li
               key={link}
               className="nav-link"
+              onClick={() => scrollToSection(link)}
             >
-              {link}
+              {link.charAt(0).toUpperCase() + link.slice(1)}
             </li>
           ))}
         </ul>
