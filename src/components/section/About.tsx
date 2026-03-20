@@ -3,8 +3,13 @@ import { AnimatedItem, AnimatedSection } from "../ui/AnimatedContent"
 
 export default function About() {
     const downloadResume = () => {
+        const resumeUrl = new URL(
+            `${import.meta.env.BASE_URL}alexander-reyes-resume.pdf`,
+            window.location.origin
+        ).toString()
+
         const link = document.createElement("a")
-        link.href = "alexander-reyes-resume.pdf"
+        link.href = resumeUrl
         link.download = "Alexander_Reyes_Resume.pdf"
         document.body.appendChild(link)
         link.click()
