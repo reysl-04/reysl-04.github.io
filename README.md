@@ -8,6 +8,7 @@ This project was not only to learn React, Typescript and Tailwind basic concepts
 - React
 - Tailwind
 - Vite
+- Github Copilot
 - Github Pages
 
 # Installation 
