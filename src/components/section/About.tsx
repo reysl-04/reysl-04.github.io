@@ -4,7 +4,7 @@ import { AnimatedItem, AnimatedSection } from "../ui/AnimatedContent"
 export default function About() {
     const downloadResume = () => {
         const link = document.createElement("a")
-        link.href = "/resume.pdf"
+        link.href = `${import.meta.env.BASE_URL}alexander-reyes-resume.pdf`
         link.download = "Alexander_Reyes_Resume.pdf"
         document.body.appendChild(link)
         link.click()
