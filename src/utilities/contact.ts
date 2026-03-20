@@ -1,3 +1,3 @@
 export default function openEmailClient() {
-    window.open("mailto:alex.reyesl0410@gmail.com");
+    window.location.href = "mailto:alexreyesl0410@gmail.com"
 }

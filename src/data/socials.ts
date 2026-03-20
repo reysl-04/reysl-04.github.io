@@ -16,7 +16,7 @@ interface socialLink {
 const socialList: string[] = ['github', 'gmail', 'instagram', 'linkedin']
 const socialUrls: Record<string, string> = {
     github: 'https://github.com/reysl-04',
-    gmail: 'alexreyesl0410@gmail.com',
+    gmail: 'mailto:alexreyesl0410@gmail.com',
     instagram: 'https://www.instagram.com/alex.reysl04/',
     linkedin: 'https://www.linkedin.com/in/alex-reyes04/'
 }
