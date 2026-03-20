@@ -1,5 +1,6 @@
 import Button from "../ui/Button"
 import { AnimatedItem, AnimatedSection } from "../ui/AnimatedContent"
+import openEmailClient from "../../utilities/contact"
 
 export default function Contact() {
     return (
@@ -57,7 +58,7 @@ export default function Contact() {
                 </AnimatedItem>
 
                 <AnimatedItem className="mt-18 flex justify-center">
-                    <Button text="Contact Me" className="px-9 py-3.5 text-base rounded-2xl" />
+                    <Button onClick={openEmailClient} text="Contact Me" className="px-9 py-3.5 text-base rounded-2xl" />
                 </AnimatedItem>
             </AnimatedSection>
         </section>

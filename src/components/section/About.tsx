@@ -2,6 +2,15 @@ import Button from "../ui/Button"
 import { AnimatedItem, AnimatedSection } from "../ui/AnimatedContent"
 
 export default function About() {
+    const downloadResume = () => {
+        const link = document.createElement("a")
+        link.href = "/resume.pdf"
+        link.download = "Alexander_Reyes_Resume.pdf"
+        document.body.appendChild(link)
+        link.click()
+        document.body.removeChild(link)
+    }
+
     return (
         <section id="about" className="w-full bg-[#8899BB] px-8 pt-20 pb-20 min-[960px]:px-14 lg:px-24 min-[960px]:pt-24 min-[960px]:pb-24 min-[960px]:mb-0">
             <AnimatedSection className="mx-auto w-full max-w-5xl" amount={0.18}>
@@ -30,7 +39,7 @@ export default function About() {
                             </p>
                         </div>
                         <div className="flex justify-center mt-8">
-                            <Button text="Resume" className="px-9 py-3.5 text-base rounded-2xl" />
+                            <Button onClick={downloadResume} text="Resume" className="px-9 py-3.5 text-base rounded-2xl" />
                         </div>
                     </AnimatedItem>
                 </div>
