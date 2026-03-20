@@ -4,7 +4,7 @@ import { scrollToSection } from "../../utilities/scroll"
 
 export default function Hero() {
   return (
-    <section className="bg-[#D9E1F8] w-full min-h-screen flex flex-col items-center justify-center px-6 pt-28 pb-16 text-center">
+    <section className="bg-[#0F1521] w-full min-h-screen flex flex-col items-center justify-center px-6 pt-28 pb-16 text-center">
       <div className="w-full max-w-3xl">
         <p className="mb-3 text-xs uppercase tracking-[0.28em] font-medium text-[#0F1521]/60">Hello I&apos;m</p>
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-black tracking-wide leading-[0.95] text-[#1A2336]">
