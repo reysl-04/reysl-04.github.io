@@ -1,14 +1,17 @@
 import { skills } from "../../data/skills"
+import { AnimatedItem, AnimatedSection } from "../ui/AnimatedContent"
 
 export default function Skills() {
     return (
         <section className="w-full bg-[#D9E1F8] px-8 pt-20 pb-20 md:px-14 lg:px-24 md:pt-24 md:pb-24">
-            <div className="mx-auto w-full max-w-5xl">
-                <h2 className="text-center text-4xl md:text-5xl font-bold tracking-widest mb-12">Skills</h2>
+            <AnimatedSection className="mx-auto w-full max-w-5xl" delay={0.08} amount={0.18}>
+                <AnimatedItem>
+                    <h2 className="text-center text-4xl md:text-5xl font-bold tracking-widest mb-12">Skills</h2>
+                </AnimatedItem>
 
                 <div className="grid grid-cols-2 gap-8 md:grid-cols-4 md:gap-10">
                     {skills.map((skill) => (
-                        <div key={skill.category}>
+                        <AnimatedItem key={skill.category}>
                             <h3 className="text-base font-semibold mb-4">{skill.category}</h3>
                             <ul className="flex flex-col gap-2">
                                 {skill.items.map((item) => (
@@ -23,10 +26,10 @@ export default function Skills() {
                                     </li>
                                 ))}
                             </ul>
-                        </div>
+                        </AnimatedItem>
                     ))}
                 </div>
-            </div>
+            </AnimatedSection>
         </section>
     )
 }

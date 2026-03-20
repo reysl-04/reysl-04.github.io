@@ -1,21 +1,25 @@
 import Button from "../ui/Button"
+import { AnimatedItem, AnimatedSection } from "../ui/AnimatedContent"
 
 export default function About() {
     return (
         <section id="about" className="w-full bg-[#8899BB] px-8 pt-20 pb-20 min-[960px]:px-14 lg:px-24 min-[960px]:pt-24 min-[960px]:pb-24 min-[960px]:mb-0">
-            <div className="mx-auto w-full max-w-5xl">
-                <h2 className="text-center text-4xl md:text-5xl font-bold tracking-wider min-[960px]:hidden mb-8]">About Me</h2>
+            <AnimatedSection className="mx-auto w-full max-w-5xl" amount={0.18}>
+                <AnimatedItem>
+                    <h2 className="text-center text-4xl md:text-5xl font-bold tracking-wider min-[960px]:hidden mb-8]">About Me</h2>
+                </AnimatedItem>
+
                 <div className="grid grid-cols-1 items-start gap-8 min-[960px]:grid-cols-[15rem_minmax(0,1fr)] min-[960px]:gap-18">
-                    <div className="left-container flex flex-col items-center gap-4 text-center min-[960px]:items-start min-[960px]:text-left">
+                    <AnimatedItem className="left-container flex flex-col items-center gap-4 text-center min-[960px]:items-start min-[960px]:text-left">
                         <div className="mt-10 [960px]:mt-0 image-container w-64 h-84 overflow-hidden rounded-2xl border">
                             <img src="#" alt="Alexander Reyes" className="h-full w-full object-cover" />
                         </div>
                         <div className="space-y-1">
                             <h3 className="text-lg md:text-xl font-semibold tracking-normal"> Hey, there! 👋</h3>
                         </div>
-                    </div>
+                    </AnimatedItem>
 
-                    <div className="right-container flex flex-col gap-6">
+                    <AnimatedItem className="right-container flex flex-col gap-6">
                         <h2 className="text-center text-4xl md:text-5xl font-bold hidden min-[960px]:block tracking-wide">About Me</h2>
                         <div className="space-y-5 tracking-wide font-light leading-relaxed min-[960px]:px-6 min-[960px]:py-4">
                             <p>
@@ -28,9 +32,9 @@ export default function About() {
                         <div className="flex justify-center mt-8">
                             <Button text="Resume" className="px-9 py-3.5 text-base rounded-2xl" />
                         </div>
-                    </div>
+                    </AnimatedItem>
                 </div>
-            </div>
+            </AnimatedSection>
         </section>
     )
 }

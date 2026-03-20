@@ -17,6 +17,7 @@ export const skills = [
         "TailwindV4",
         "Next.js",
         "FastAPI",
+        "Pandas"
       ]
     },
     { 

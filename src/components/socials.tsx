@@ -17,7 +17,7 @@ export default function Socials() {
                     <img
                         src={social.link}
                         alt={social.name}
-                        className="w-full h-full object-contain origin-center transition-[filter] duration-500 ease-in-out delay-0 group-hover:delay-100 group-hover:invert"
+                        className="w-full h-full object-contain origin-center transition-[filter] duration-500 ease-in-out delay-0 group-hover:delay-100"
                     />
                 </a>
                 </div>
