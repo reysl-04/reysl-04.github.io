@@ -40,8 +40,8 @@ export default function Hero() {
         transition={{ delay: reduceMotion ? 0 : 0.25 }}
       >
         <motion.p variants={itemVariants} className="max-w-[62ch] text-base md:text-lg leading-relaxed font-normal tracking-normal text-[#EDF2FF]/80">
-          A software engineer and game enjoyer based in Plattsburgh, New York who enjoys
-          crafting creative and high-quality web and Android applications.
+          A Computer Science student and artist based in Plattsburgh, New York who enjoys
+          crafting creative and high-quality web and android applications.
         </motion.p>
 
         <motion.div variants={itemVariants} className="my-2">

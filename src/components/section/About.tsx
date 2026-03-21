@@ -25,7 +25,7 @@ export default function About() {
 
                 <div className="grid grid-cols-1 items-start gap-8 min-[960px]:grid-cols-[15rem_minmax(0,1fr)] min-[960px]:gap-18">
                     <AnimatedItem className="left-container flex flex-col items-center gap-4 text-center min-[960px]:items-start min-[960px]:text-left">
-                        <div className="mt-10 [960px]:mt-0 image-container w-64 h-84 overflow-hidden rounded-2xl border">
+                        <div className="mt-10 [960px]:mt-0 image-container w-64 h-88 overflow-hidden rounded-2xl border">
                             <img src="#" alt="Alexander Reyes" className="h-full w-full object-cover" />
                         </div>
                         <div className="space-y-1">
@@ -37,10 +37,12 @@ export default function About() {
                         <h2 className="text-center text-4xl md:text-5xl font-bold hidden min-[960px]:block tracking-wide">About Me</h2>
                         <div className="space-y-5 tracking-wide font-light leading-relaxed min-[960px]:px-6 min-[960px]:py-4">
                             <p>
-                                Hello! I&apos;m Alexander, AKA Alex, an aspiring <span className="text-[#E8A020] font-extrabold">Software Engineer</span> in Plattsburgh, New York. I enjoy creating high-quality web and Android applications and love working on projects that challenge me and allow me to learn new things.
+                                Hello! I&apos;m Alexander, or Alex, an aspiring <span className="text-[#E8A020] font-extrabold">Software Engineer</span>. Currently, I am a CS student here at SUNY Plattsburgh, studying and looking for opportunities to grow as a SWE.</p>
+                            <p>
+                                As a success-driven person, I have a great motivation to learn and grow, to provide a great value to the company I work for, and to be a great team member. Also, I have a positive attitude and a great work ethic, which I believe are essential qualities for a successful software engineer. I am always looking for new challenges and opportunities to learn and grow in my career.
                             </p>
                             <p>
-                                Currently, I&apos;m a student at SUNY Plattsburgh pursuing a Computer Science degree and seeking real-world experience in software engineering. Beyond coding, I&apos;m interested in Software Architecture, video games, and fitness. Feel free to reach out or check my resume.
+                                Beyond coding, I&apos;m interested in drawing (Especially character design), video games, and fitness. Feel free to reach out or check my resume!
                             </p>
                         </div>
                         <div className="flex justify-center mt-8">
