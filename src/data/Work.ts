@@ -16,7 +16,6 @@ export const experiences: workType[] = [
             "Teaching assistant at the computer science department at SUNY Plattsburgh",
             "Aided +20 students in their understanding of core programming concepts and projects using Python",
             "Held office hours at the Learning Center three times a week and provided one-on-one support to Computer Science students for CSC221 (Intro to programming)",
-            "Collaborated with the professor to review syllabus and class understanding",
             "Provided extra resources to students to improve and review class material"
         ],
         tags: ["Education", "Teaching", "Support"],
@@ -27,11 +26,11 @@ export const experiences: workType[] = [
         company: "SUNY Plattsburgh",
         date: "August 2025 - Present",
         description: [
-            "Intern at the ACM Club at SUNY Plattsburgh",
-            "Assisted in organizing events and workshops for the club",
-            "Helped with marketing and promotion of club activities"
+            "Active participation as a member, developing small CRUD applications and building prototypes for future club projectsusing reactJS and React Native",
+            "Active  participation  as  an  intern,  assisting  with 1-hour weekly meetings and hosting events related to software and web development.", 
+            "Supported over 5 members with their fundamental programming understanding and problems related to their projects and assignments during and outside club meeting hours"
         ],
-        tags: ["Education", "Leadership", "Event Planning"],
+        tags: ["Education", "Leadership", "Event Planning", "Communication", "Teamwork"],
         url: "https://campusgroups.plattsburgh.edu/acm/home/"
     }    
     ]
@@ -39,10 +38,14 @@ export const experiences: workType[] = [
 export const projects: workType[] = [
     {
         title: "ZeroCrumb",
-        company: "Stony Brook University",
+        company: "SUNY Stony Brook",
         date: "February 2026",
-        description: ["1", "2", "3"],
-        tags: ["ReactJS", "Supabase", "API"],
+        description: [
+            "Web app focused on tracking user’s daily intake calories based on photos taken from the user. Instagram-like interface to share progress with people within the user's area.",
+            "Developed Front-end with Code Claude AI Assistance, as well as a solid foundation on React and Tailwind",
+            "Assisted with development of back-end n using PLpgSQL and Supabase, as well as connecting the web app with the LogMeal AI API."
+        ],
+        tags: ["ReactJS", "Supabase", "API", "PLpgSQL", "Tailwind", "Glaude Code", "Render", "Typecript"],
         url: "https://github.com/reysl-04/Hoppers2k26"
     }
 ]
